@@ -6,4 +6,4 @@ services:
     buildCommand: npm install
     startCommand: npm run dev
     branch: main
-    repo: https://github.com/yourusername/your-repo-name
+    repo: https://github.com/Prathameshp45/Mern-Backend
