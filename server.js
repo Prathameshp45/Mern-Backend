@@ -14,7 +14,7 @@ app.use(cors());
 
 app.use('/api/products', productRoutes);
 app.use('/api/users', userRoutes);
-mongoose.connect(process.env.MONGO_URI)
+mongoose.connect('mongodb+srv://prathameshp9456:x7h0rGSFB4Sk3Ptq@cluster0.mxihygn.mongodb.net/BalajiElectronics')
   .then(() => console.log("MongoDB Connected"))
   .catch(err => console.log("MongoDB connection error:", err));
 
